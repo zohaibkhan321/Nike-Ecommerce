@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Card from "@/components/card";
 import { productData } from "@/utils/product";
 import { VscSettings } from "react-icons/vsc";
-import { IoIosArrowDown, IoIosArrowForward } from "react-icons/io";
+import { IoIosArrowDown } from "react-icons/io";
 import Link from "next/link";
 
 const navData: string[] = [
@@ -20,14 +20,6 @@ const navData: string[] = [
   "Socks",
   "Accessories & Equipment",
 ];
-
-type Product = {
-  id: number;
-  title: string;
-  price: number;
-  category: string;
-  image: string;
-};
 
 type FilterState = {
   gender: string[];

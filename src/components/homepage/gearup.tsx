@@ -84,7 +84,7 @@ const Gearup = () => {
       {/* Women's Section */}
       <div className="lg:w-1/2 w-full">
         <div className="flex items-center gap-3 py-2 w-full justify-end px-6">
-          <span className="text-sm font-medium">Shop Women's</span>
+          <span className="text-sm font-medium">Shop Women&apos;s</span>
           <button
             className="md:w-12 md:h-12 w-8 h-8 rounded-full bg-zinc-100 text-zinc-400 flex justify-center items-center md:text-2xl text-lg p-1"
             onClick={() => scrollLeft(womensScrollRef)}
@@ -109,7 +109,7 @@ const Gearup = () => {
       {/* Men's Section */}
       <div className="lg:w-1/2 w-full">
         <div className="flex items-center gap-3 py-2 w-full justify-end px-6">
-          <span className="text-sm font-medium">Shop Men's</span>
+          <span className="text-sm font-medium">Shop Men&apos;s</span>
           <button
             className="md:w-12 md:h-12 w-8 h-8 rounded-full bg-zinc-100 text-zinc-400 flex justify-center items-center md:text-2xl text-lg p-1"
             onClick={() => scrollLeft(mensScrollRef)}
